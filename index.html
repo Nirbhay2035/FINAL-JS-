@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="gallery.css" />
+    <script src="gallery.js"></script>
+  </head>
+  <body>
+    <div id="image">Hover over an image below to display here.</div>
+
+    <img
+      class="preview"
+      alt="Styling with a Bandana"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+      onfocus="imageFocus(this)"
+      onblur="imageBlur(this)"
+    />
+
+    <img
+      class="preview"
+      alt="With My Boy"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+      onfocus="imageFocus(this)"
+      onblur="imageBlur(this)"
+    />
+
+    <img
+      class="preview"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg"
+      alt="Young Puppy"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+      onfocus="imageFocus(this)"
+      onblur="imageBlur(this)"
+    />
+
+    <img
+      class="preview"
+      alt="A bustling cityscape at night with colorful lights and busy streets"
+      src="https://images.pexels.com/photos/27674360/pexels-photo-27674360/free-photo-of-a-subway-train-is-pulling-into-a-station.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+    />
+
+    <!-- Fifth Image -->
+    <img
+      class="preview"
+      alt="A peaceful beach with soft sand and gentle waves at sunrise"
+      src="https://images.pexels.com/photos/9221488/pexels-photo-9221488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+      onfocus="imageFocus(this)"
+      onblur="imageBlur(this)"
+    />
+
+    <!-- Sixth Image -->
+    <img
+      class="preview"
+      alt="A picturesque view of a forest trail with autumn foliage"
+      src="https://images.pexels.com/photos/5617413/pexels-photo-5617413.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+      onfocus="imageFocus(this)"
+      onblur="imageBlur(this)"
+    />
+  </body>
+</html>
